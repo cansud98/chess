@@ -20,7 +20,7 @@ integer a(m,m)
 print*, "********************************************************"
 print*, "Hello! Note that the game starts with positive numbers."
 print*, "Please check the instructions before playing the game."
-print*, "                  May the best win!"
+print*, "          Practice daily, the best never rest!"
 print*, "********************************************************"
 
 open(11,file="board.dat")
@@ -97,10 +97,13 @@ integer a(m,m)
 11 idiff=i2-i1
 jdiff=j2-j1
 
-if(a(i2,j2).eq.0.and.idiff.eq.1.and.jdiff.eq.0) then
+if(a(i2,j2).eq.0.and.idiff.eq.-1.and.jdiff.eq.0) then
 a(i1,j1)=0
 a(i2,j2)=1
-elseif(a(i1,j1).eq.1.and.a(i2,j2).lt.0.and.idiff.eq.1.and.abs(jdiff).eq.1) then
+elseif(a(i2,j2).eq.0.and.idiff.eq.-2.and.jdiff.eq.0.and.i1.eq.7) then
+a(i1,j1)=0
+a(i2,j2)=1
+elseif(a(i1,j1).eq.1.and.a(i2,j2).lt.0.and.idiff.eq.-1.and.abs(jdiff).eq.1) then
 a(i1,j1)=0
 a(i2,j2)=1
 else
@@ -128,10 +131,13 @@ integer a(m,m)
 12 idiff=i2-i1
 jdiff=j2-j1
 
-if(a(i2,j2).eq.0.and.idiff.eq.-1.and.jdiff.eq.0) then
+if(a(i2,j2).eq.0.and.idiff.eq.1.and.jdiff.eq.0) then
 a(i1,j1)=0
 a(i2,j2)=-1
-elseif(a(i1,j1).eq.-1.and.a(i2,j2).gt.0.and.abs(jdiff).eq.1) then
+elseif(a(i2,j2).eq.0.and.idiff.eq.2.and.jdiff.eq.0.and.i1.eq.2) then
+a(i1,j1)=0
+a(i2,j2)=-1
+elseif(a(i1,j1).eq.-1.and.a(i2,j2).gt.0.and.idiff.eq.1.and.abs(jdiff).eq.1) then
 a(i1,j1)=0
 a(i2,j2)=-1
 else
