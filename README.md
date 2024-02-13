@@ -17,7 +17,7 @@ __Suggestions for improving the code:__
 Here is the Ruy Lopez opening...  
 ![ruylopez](https://github.com/cansud98/chess/assets/81981060/4bf945f8-6ae1-49b8-a770-9ab35123bc37)
 
-"The Ruy Lopez—also known as the Spanish game—is named after Rodrigo (Ruy) Lopez de Segura, a Spanish bishop who analyzed this opening in his 1561 work, "Book of the Liberal Invention and Art of the Game of Chess. Nearly half a millennium later, the Ruy remains one of the most popular chess openings. Chess experts have come up with numerous variations, and a wide variety of strategic plans are available to both white and black.  
+"The Ruy Lopez—also known as the Spanish game—is named after Rodrigo (Ruy) Lopez de Segura, a Spanish bishop who analyzed this opening in his 1561 work, "Book of the Liberal Invention and Art of the Game of Chess". Nearly half a millennium later, the Ruy remains one of the most popular chess openings. Chess experts have come up with numerous variations, and a wide variety of strategic plans are available to both white and black.  
   
 The starting position of the Ruy Lopez is reached after the following moves: 1. e4, e5; 2. Nf3, Nc6; and 3. Bb5.  
   
