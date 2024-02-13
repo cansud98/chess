@@ -1,6 +1,6 @@
 # chess
 
-I developed this Chess code as my final project for a lecture during my undergraduate studies at ITU, with the help of [Dr. Efe](https://www.researchgate.net/profile/Bahtiyar-Efe "BahtiyarEfe") in 2018.  
+I developed this Chess code in 2018 as my final project for a lecture during my undergraduate studies at ITU, with the help of [Dr. Efe](https://www.researchgate.net/profile/Bahtiyar-Efe "BahtiyarEfe").
   
 This Fortran code can be easily improved, and I’m eager to share it with anyone interested in learning this programming language or looking to practice by reviewing the code. If you spot any mistakes or have suggestions for updates, please feel free to dive in!
 
