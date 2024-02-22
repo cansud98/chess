@@ -1,8 +1,8 @@
 # chess
 
-I developed this Chess code in 2018 as my final project for a lecture during my undergraduate studies at ITU, with the help of the teaching assistant.
+I developed this Chess code in 2018 as my final project for a lecture during my undergraduate studies at ITU.
   
-This Fortran code can be easily improved, and I’m eager to share it with anyone interested in learning this programming language or looking to practice by reviewing the code.
+This Fortran code can be easily improved. I wanted to share it with anyone interested in learning this programming language or looking to practice by reviewing the code.
 
     
 __Suggestions for improving the code:__
